@@ -1,6 +1,6 @@
 # Exercise 3
 
-Write a query that returns rows with row numbers 11 through 20 based on the row-number definition:
+Write a query that returns rows with row numbers from 11 to 20 based on the row-number (rownum query) definition:
 
 ```sql
 SELECT orderid, orderdate, custid, empid, @i := @i+1 AS rownum 

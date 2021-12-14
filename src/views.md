@@ -4,7 +4,7 @@ Derived tables and CTEs have a single-statement scope, which means they are not 
 
 ```sql
 DROP VIEW IF EXISTS USACusts;
-GO
+
 CREATE VIEW USACusts
 AS
 SELECT
